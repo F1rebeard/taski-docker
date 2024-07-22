@@ -1,8 +1,7 @@
 import os
-
 from pathlib import Path
 
-#from django.conf.global_settings import STATIC_ROOT
+# from django.conf.global_settings import STATIC_ROOT
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
