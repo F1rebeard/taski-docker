@@ -1,6 +1,4 @@
-from datetime import datetime
 from http import HTTPStatus
-from symtable import Class
 
 from api import models
 from django.test import Client, TestCase
