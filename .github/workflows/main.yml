@@ -149,6 +149,7 @@ jobs:
           source: "docker-compose.production.yml"
           target: "taski"
       - name: Executing remote server commands
+        uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.SERVER_IP }}
           username: ${{ secrets.SERVER_USERNAME }}
